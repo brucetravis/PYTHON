@@ -7,9 +7,9 @@ def prime_number(n):
         print(f"{n}: is NOT  a prime number.") 
         return
     
-    # Loop thorugh all he numbers i a rnage of numbers
+    # Loop through all the numbers i a range of numbers
     for i in range(2, n):
-        # If n is dividedd by any number in the range and the remainder is 0
+        # If n is divided by any number in the range and the remainder is 0
         if n % i == 0:
             # Print out a message
             print(f"{n}: is NOT a prime number.")
