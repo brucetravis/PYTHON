@@ -14,14 +14,17 @@
 
 
 
-# Function to print a right angled triangle
-def triangle(n):
-    # Loop through the range values
-    # For this we add a step
-    for i in range(1, n + 1, 2):
-        # Print out the values
-        print("*" * i)
+# # Function to print a right angled triangle
+# def triangle(n):
+#     # Loop through the range values
+#     # For this we add a step
+#     for i in range(1, n + 1, 2):
+#         # Print out the values
+#         print("*" * i)
         
-# Call the function providing an argument
-triangle(50)
-        
+# # Call the function providing an argument
+# triangle(10)
+
+# In range the last number is never reached
+for i in range(1, 10, 5):
+    print("*" * i)
