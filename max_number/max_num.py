@@ -1,7 +1,7 @@
 # function to find the maximum number in a list
 def maximum_num(list):
     # If the list if empty return None
-    if not list: # If lst is empty 'not lst' is True but If lst not empty, not lst becomes true
+    if not list: # If lst is empty 'not lst' is True but If lst not empty, not lst becomes false
         return None
     
     # Initialize the max number with the first value so that we can compare with the first value
@@ -10,7 +10,7 @@ def maximum_num(list):
     # Loop through all the numbers in the list
     for num in list:
         if num > max_num:
-            # Update the max_num with the lates max_num value
+            # Update the max_num with the latest max_num value
             max_num = num
             
     # After Iteration, return the max_value

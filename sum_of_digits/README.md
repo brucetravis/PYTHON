@@ -1,0 +1,1 @@
+Sum of digits – Write a function that takes a number and returns the sum of its digits.
